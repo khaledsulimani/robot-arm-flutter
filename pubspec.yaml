@@ -1,0 +1,42 @@
+name: robot_arm_control
+description: A Flutter project to control a robot arm
+
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0" # Updated to Dart 3. Ensure dependencies are compatible.
+  flutter: ">=3.10.0"   # Optional: Specify a minimum Flutter version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0        # Example: Check pub.dev for the latest compatible version
+  provider: ^6.0.5    # Example: Check pub.dev for the latest compatible version
+  flutter_slidable: ^3.0.0 # Example: Check pub.dev for the latest compatible version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0 # Recommended: Adds linting rules for better code quality
+
+flutter:
+  uses-material-design: true # Usually good to have if you're using Material widgets
+ # Make sure this path is correct and indentation is with spaces
+    # To include individual files:
+    # - assets/images/robot_arm_icon.png
+    # - assets/images/another_image.jpg
+
+  # To add custom fonts, uncomment and add files here:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
